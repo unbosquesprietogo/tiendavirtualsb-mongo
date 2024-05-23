@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/proveedores")
+@CrossOrigin("*")
+@RequestMapping("/proveedores")
 public class ProveedorController {
 
     @Autowired
